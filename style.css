@@ -1,0 +1,56 @@
+@font-face {
+    font-family: ptsans;
+    src: url(fonts/PTSans-Regular.ttf);
+}
+
+html {
+    /*background-color: #4d4632;
+    height: 100vh;
+    width: 100vw;*/
+    background-image: url(img/waterfall-1920x1080.jpg);
+}
+
+@media screen and (max-width: 356px) {
+    #clock {
+        color: whitesmoke;
+        font-family: ptsans;
+        font-size: 15vh;
+        text-align: center;
+        margin-top: 30vh;
+        /*display: block;
+    margin-top: 20rem;
+    margin-bottom: 4rem;*/
+        background-image: url(img/clock.png);
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 681px) {
+    #clock {
+        color: whitesmoke;
+        font-family: ptsans;
+        font-size: 20vw;
+        text-align: center;
+        margin-top: 30vh;
+        /*display: block;
+    margin-top: 20rem;
+    margin-bottom: 4rem;*/
+        background-image: url(img/clock.png);
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 681px) {
+    #clock {
+        color: whitesmoke;
+        font-family: ptsans;
+        font-size: 20vh;
+        text-align: center;
+        margin-top: 30vh;
+        /*display: block;
+    margin-top: 20rem;
+    margin-bottom: 4rem;*/
+        background-image: url(img/clock.png);
+        width: auto;
+    }
+}
